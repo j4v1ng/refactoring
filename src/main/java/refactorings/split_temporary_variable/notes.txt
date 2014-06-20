@@ -1,0 +1,4 @@
+The variables 'acc' and 'result' in the example are reinitialized in multiple occasions in different ways.
+This gives us the clue that that variable is responsible for too many things.
+To clean this smell we need to make sure that the temporary variables cannot be re-initialized
+multiple times. When necessarily we split the temporary variable.

@@ -1,0 +1,21 @@
+MAIN RULES WHEN EXTRACT METHOD:
+[1]
+-If does not contain local variables:
+ -> JUST EXTRACT TO A NEW METHOD
+
+[2]
+-If a local variable its not modified and used only in the chunk we want to extract
+-> BRING INTO EXTRACTED METHOD AND DELETE THE OLD DECLARATION
+
+[3-A & 3-B](Look at the variable Enumeration e)
+-If a local variable its not modified but its being used not just in the chunk we want to extract
+-> PASS IT AS PARAMETER TO THE EXTRACTED METHOD
+
+[3-A]
+-If a local variable its modified by the chunk you want to extract
+-> DON'T BRING IT INTO THE EXTRACTED METHOD, JUST REASSIGN IT
+
+[3-B]
+-If a local variable its modified by the chunk you want to extract but it is initialized
+to some value that is not obvious
+-> PASS IT AS PARAMETER TO THE EXTRACTED METHOD

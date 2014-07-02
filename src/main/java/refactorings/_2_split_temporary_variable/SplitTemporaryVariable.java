@@ -1,4 +1,4 @@
-package refactorings.split_temporary_variable;
+package refactorings._2_split_temporary_variable;
 
 //Code before refactoring at the bottom
 public class SplitTemporaryVariable {

@@ -1,4 +1,4 @@
-package refactorings.extract_method._3_when_reasigning_a_local_variable_case_B.additionalclasses;
+package refactorings._1_extract_method._2_when_using_local_variables.additionalclasses;
 
 /**
  * Created by ocean on 20/06/14.

@@ -1,4 +1,4 @@
-package refactorings.extract_method._1_when_no_local_variables.additionalclasses;
+package refactorings._1_extract_method._2_when_using_local_variables.additionalclasses;
 
 import java.util.Enumeration;
 

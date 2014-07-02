@@ -1,7 +1,7 @@
-package refactorings.extract_method._3_when_reasigning_a_local_variable_case_B;
+package refactorings._1_extract_method._3_when_reasigning_a_local_variable_case_B;
 
-import refactorings.extract_method._3_when_reasigning_a_local_variable_case_B.additionalclasses.Order;
-import refactorings.extract_method._3_when_reasigning_a_local_variable_case_B.additionalclasses.Orders;
+import refactorings._1_extract_method._3_when_reasigning_a_local_variable_case_B.additionalclasses.Order;
+import refactorings._1_extract_method._3_when_reasigning_a_local_variable_case_B.additionalclasses.Orders;
 
 import java.util.Enumeration;
 

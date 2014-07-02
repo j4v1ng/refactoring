@@ -65,6 +65,10 @@ a local value result was created to gather the result, since we are no longer us
 methods, we can delete the local variables totalAmount and frequentRenterPoints since they were replaced with
 query methods
 
+IMPORTANT: When extracting the query method, such as in steps 1 and 2, it could happen that part of the
+code that is extracted indirectly, modifies other objects, if that is the case, you probably need to use
+Separate query from modifier before doing replace temp with query.
+
 private String statement() {
         double totalAmount = 0;
         int frequent = 0;

@@ -1,4 +1,4 @@
-package refactorings._5_separate_querry_from_modifier.additionalClasses;
+package refactorings._6_separate_querry_from_modifier.additionalClasses;
 
 public class SomeClass {
 

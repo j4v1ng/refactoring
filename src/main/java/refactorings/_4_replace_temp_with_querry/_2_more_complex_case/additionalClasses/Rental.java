@@ -1,4 +1,4 @@
-package refactorings._3_replace_temp_with_querry._2_more_complex_case.additionalClasses;
+package refactorings._4_replace_temp_with_querry._2_more_complex_case.additionalClasses;
 
 import javax.swing.*;
 import java.util.Enumeration;

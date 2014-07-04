@@ -1,4 +1,4 @@
-package refactorings._3_replace_temp_with_querry._1_simple_case;
+package refactorings._4_replace_temp_with_querry._1_simple_case;
 
 public class ReplaceTempWithQuery {
 

@@ -1,7 +1,7 @@
-package refactorings._5_separate_querry_from_modifier;
+package refactorings._6_separate_querry_from_modifier;
 
-import static refactorings._5_separate_querry_from_modifier.additionalClasses.SomeClass.alert;
-import static refactorings._5_separate_querry_from_modifier.additionalClasses.SomeClass.someLaterCode;
+import static refactorings._6_separate_querry_from_modifier.additionalClasses.SomeClass.alert;
+import static refactorings._6_separate_querry_from_modifier.additionalClasses.SomeClass.someLaterCode;
 
 public class SeparateQueryFromModifier {
 

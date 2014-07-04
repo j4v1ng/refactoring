@@ -1,6 +1,6 @@
-package refactorings._3_replace_temp_with_querry._2_more_complex_case;
+package refactorings._4_replace_temp_with_querry._2_more_complex_case;
 
-import refactorings._3_replace_temp_with_querry._2_more_complex_case.additionalClasses.Rental;
+import refactorings._4_replace_temp_with_querry._2_more_complex_case.additionalClasses.Rental;
 
 import java.util.Enumeration;
 

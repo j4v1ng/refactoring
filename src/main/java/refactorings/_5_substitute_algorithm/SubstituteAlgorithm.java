@@ -1,4 +1,4 @@
-package refactorings._4_substitute_algorithm;
+package refactorings._5_substitute_algorithm;
 
 import java.util.List;
 
